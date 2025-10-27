@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+     background-color: #6d6d6d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+header{
+    background-color:rgb(165, 165, 165);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;   
+
+}
+
+h2{
+    color: rgb(#585858);
+    font-size: 30px;
+
+}
+
+img{
+
+width: 220px;
+height: 220px;
+border-radius: 100px;    
+}
