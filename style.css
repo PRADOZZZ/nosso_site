@@ -1,33 +1,124 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color:#FFF2E7;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #206DA4 13.62%, #1B588C 65.61%, #3286BD 25.11% );
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 24px;
+    
 }
 
 
-body{
-     background-color: #6d6d6d;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+.cabeçalho-menu {
+   display: flex;
+   gap: 32px;
+   font-family: "Bodoni Moda", serif;
 }
 
-header{
-    background-color:rgb(165, 165, 165);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    align-items: center;   
+.cabeçalho-item {
+    font-family: "Bodoni Moda", serif;
+    color: #CEE5FC;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabeçalho-item:hover {
+  color:#3286BD;
+}
+
+
+.conteudo {
+    margin-bottom: 35px;
+    border-top: 7px solid #3286BD;
+}
+
+.conteudo-apresentação {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
-h2{
-    color: rgb(#585858);
-    font-size: 30px;
-
+.conteudo-apresentação-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-img{
+.conteudo-apresentação-nome {
+    margin-bottom: -35px;
+    margin-top: 20px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+}
 
-width: 220px;
-height: 220px;
-border-radius: 100px;    
+.conteudo-apresentação-função {
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.conteudo-apresentação-butão {
+    background-color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    color: #3286BD;
+    font-weight: 600;
+    border: none;
+    box-shadow:8px 7px 6px #000000;
+    border-radius: 25px;
+}
+
+.conteudo-apresentação-butão:hover {
+    background-color: #3286BD;
+    color: #FFFFFF;
+}
+
+.conteudo-apresentação-imagem {
+    margin-top: 30px;
+    width: 190px;
+    border-radius: 25px;
+}
+
+.conteudo-dados {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.conteudo-dados-info {
+    font-size: 24px;
+    margin-bottom: 9px;
+}
+
+.conteudo-dados-dado {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.rodape {
+    padding: 10px;
+    border-top: 7px solid #3286BD;
+    display: block;
+    margin: 0 auto;
 }
